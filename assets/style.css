@@ -1,6 +1,6 @@
 :root {
  --primary-color: #ddc3a5;
- --seoncdary-color: #201e20;
+ --secondary-color: #201e20;
  --tertiary-color: #e0a96d;
 }
 * {
@@ -10,9 +10,10 @@
 }
 
 body {
-    background-color: #201e20;
+    background-color: var(--secondary-color);
+    
 }
-
+/* change the var tertiary to secondary after moving it to the side - just to see it rn its tertiary - its ugly lol */
 /* HEADER / NAV BAR STYLES START */
   
 header {
@@ -71,6 +72,8 @@ header nav ul li a:hover {
   }
 
 /* HEADER / NAVBAR STYLES END */
+
+/* hero section */
 .hero {
     background-image: url("./images/bebetigre.jpg");
     background-size: cover;
@@ -96,8 +99,70 @@ header nav ul li a:hover {
     font-style: italic;
     font-size: 55px;
     color: var(--primary-color);
+    text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.hero-cta h3 {
+    font-style: italic;
+    font-size: 55px;
+    color: var(--primary-color);
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /*         255, 17, 0             */
 }  
+
+/* end hero section */
+
+/* aside section */
+
+.flex-item {
+    display:flex;
+    flex-direction: column;
+    min-height: 250px;
+    padding: 20px 0;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+    width: 45%;
+}
+
+/* they are assigned to about-me since it will be the same */
+
+/* end aside section */
+
+/* footer section start */
+
+  
+footer {
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding: 20px 35px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index: 9999;
+  }
+  
+footer h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+footer a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+/* end footer section */
 
 .float-left {
     float: left;
