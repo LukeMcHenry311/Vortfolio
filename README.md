@@ -8,4 +8,4 @@ This week's weekly challenge was too make a Portfolio of my work so far, I have 
 5. Added media queries to make the portfolio accessible to multiple viewport sizes.
 6. Basic and advanced CSS to make the site look nice.
 
-![header]("./images/bebetigre.jpg")
+![screenshot](https://user-images.githubusercontent.com/82482629/117607212-bb060f00-b118-11eb-802f-58e91260864b.png)
