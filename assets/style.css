@@ -232,7 +232,7 @@ footer a:hover {
   height: 300px;
 }
 .cta {
-    background-image: url("images/Run-Buddy.png");
+    background-image: url("images/weekly-group-proj.png");
     background-size: cover;
     background-repeat:no-repeat;
 }
@@ -254,7 +254,7 @@ footer a:hover {
 }
 
 .grpproj {
-  background-image: url("images/weekly-group-proj.png");
+  background-image: url("images/Run-Buddy.png");
   background-size: cover;
 }
 
