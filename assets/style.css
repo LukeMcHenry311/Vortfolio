@@ -253,6 +253,11 @@ footer a:hover {
     background-size: cover;
 }
 
+.grpproj {
+  background-image: url("images/weekly-group-proj.png");
+  background-size: cover;
+}
+
 .title {
     position: absolute;
     bottom: 0;
