@@ -231,8 +231,8 @@ footer a:hover {
   width: 90vw;
   height: 300px;
 }
-.cta {
-    background-image: url("images/Run-Buddy.png");
+.grp {
+    background-image: url("images/weekly-group-proj.png");
     background-size: cover;
     background-repeat:no-repeat;
 }
@@ -252,9 +252,12 @@ footer a:hover {
     background-image: url("images/grpproj2.png");
     background-size: cover;
 }
-
 .grpproj {
   background-image: url("images/weekly-group-proj.png");
+  background-size: cover;
+}
+.runbud {
+  background-image: url("images/Run-Buddy.png");
   background-size: cover;
 }
 
