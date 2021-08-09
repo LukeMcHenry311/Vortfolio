@@ -110,7 +110,7 @@ header nav ul li a:hover {
 }
 .hero-cta h3 {
     font-style: italic;
-    font-size: 55px;
+    font-size: 53px;
     color: var(--primary-color);
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -248,9 +248,14 @@ footer a:hover {
     background-image: url("images/picofhotdog.png");
     background-size: cover;
 }
-.nyancat {
-    background-image: url("images/nyancat.png");
+.grpproj2 {
+    background-image: url("images/grpproj2.png");
     background-size: cover;
+}
+
+.grpproj {
+  background-image: url("images/weekly-group-proj.png");
+  background-size: cover;
 }
 
 .title {
